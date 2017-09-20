@@ -8,6 +8,7 @@
 <title>Home</title>
 </head>
 <body>
+<<<<<<< HEAD
 
 <h3>Welcome ${user.custid}</h3>
 <h1>Hello</h1>
@@ -17,12 +18,38 @@
 <h3><a href="<c:url value="/pages/product.jsp" />">Poduct</a></h3>
 
 =======
+=======
+<h3><a href="<c:url value="/secure/login.jsp" />">Login</a></h3>
+<h3><a href="<c:url value="/pages/product.jsp" />">Poduct</a></h3>
+<h3>Welcome ${user.custid}</h3>
+<<<<<<< HEAD
+<h3>hahahaha</h3>
+<h3>hello</h3>
+<p>幹你娘<>
+<p>幹你娘<>
+
+>>>>>>> branch 'master' of https://github.com/EEIT9703/RemoteRepository0922.git
 
 <h3><a href="<c:url value="/secure/login.jsp" />">Login</a></h3>
 <h3><a href="<c:url value="/pages/product.jsp" />">Poduct</a></h3>
+<<<<<<< HEAD
 
 
 <h2>非常難改唷唷唷唷喔唷</h2>
+=======
+<p>幹你娘<>
+<p>幹你娘<>
+>>>>>>> branch 'master' of https://github.com/EEIT9703/RemoteRepository0922.git
 
 </body>
+
+
+<h3><a href="<c:url value="/secure/login.jsp" />">Login</a></h3>
+<h3><a href="<c:url value="/pages/product.jsp" />">Poduct</a></h3><h3><a href="<c:url value="/secure/login.jsp" />">Login</a></h3>
+<h3><a href="<c:url value="/pages/product.jsp" />">Poduct</a></h3>
+
+
+
+<h3><a href="<c:url value="/secure/login.jsp" />">Login</a></h3>
+<h3><a href="<c:url value="/pages/product.jsp" />">Poduct</a></h3>
 </html>
