@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+qqq
 <%@ page import="model.dao.*" %>
 <%@ page import="model.*" %>
 <%@ page import="java.util.*" %>
@@ -37,11 +37,11 @@ while(rset.next()) {
 	String col1 = rset.getString(1);
 	String col2 = rset.getString(2);
 	out.println("<h1>"+col1+":"+col2+"</h1>");
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> branch 'master' of https://github.com/EEIT9703/RemoteRepository0922.git
 %>
+
+
+
+
 </body>
 </html>
