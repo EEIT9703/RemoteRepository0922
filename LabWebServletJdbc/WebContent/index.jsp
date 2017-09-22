@@ -10,6 +10,7 @@
 <body>
 
 <h3>Welcome ${user.custid}</h3>
+<<<<<<< HEAD
 <h3>hahahaha</h3>
 <h3>hello</h3>
 <p>幹你娘<>
@@ -20,5 +21,6 @@
 <h3><a href="<c:url value="/pages/product.jsp" />">Poduct</a></h3>
 <p>幹你娘<>
 <p>幹你娘<>
+
 </body>
 </html>
