@@ -35,6 +35,9 @@ public class EncodingFilter implements Filter {
 	}
 	@Override
 	public void destroy() {
+		
+		
+		
 
 	}
 }
