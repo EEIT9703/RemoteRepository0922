@@ -47,7 +47,7 @@ public class LoginServlet extends HttpServlet {
 		
 //呼叫model
 		CustomerBean bean = service.login(username, password);
-		
+		 
 //根據model執行結果，導向view
 		if(bean==null) {
 			errors.put("password", "Login failed, please try again.");
