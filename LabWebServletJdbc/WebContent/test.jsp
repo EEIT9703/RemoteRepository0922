@@ -9,6 +9,7 @@
 <body>
 <h1>hello</h1>
 <h2>java</h2>
+
 <%@ page import="model.dao.*" %>
 <%@ page import="model.*" %>
 <%@ page import="java.util.*" %>
