@@ -8,6 +8,7 @@
 <title>Home</title>
 </head>
 <body>
+<<<<<<< HEAD
 
 <h3>Welcome ${user.custid}</h3>
 <<<<<<< HEAD
@@ -19,5 +20,7 @@
 <p>安安<>
 <p>幹你娘<>
 
+
 </body>
+
 </html>

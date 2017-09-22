@@ -26,6 +26,7 @@ CustomerBean bean = dao1.select("Alex");
 <%@ page import="javax.naming.*" %>
 <%@ page import="javax.sql.*" %>
 <%@ page import="java.sql.*" %>
+
 <%
 Context ctx = new InitialContext();
 DataSource dataSource = (DataSource) ctx.lookup("java:comp/env/jdbc/xxx");
