@@ -24,6 +24,8 @@ public class EncodingFilter implements Filter {
 		
 		request.setCharacterEncoding("UTF-8");
 		chain.doFilter(request, response);
+
+		
 		
 	}
 	private FilterConfig filterConfig;
@@ -33,6 +35,10 @@ public class EncodingFilter implements Filter {
 	}
 	@Override
 	public void destroy() {
+		
+		
+		
+
 
 	}
 }

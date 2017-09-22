@@ -26,6 +26,7 @@ CustomerBean bean = dao1.select("Alex");
 <%@ page import="javax.naming.*" %>
 <%@ page import="javax.sql.*" %>
 <%@ page import="java.sql.*" %>
+
 <%
 Context ctx = new InitialContext();
 DataSource dataSource = (DataSource) ctx.lookup("java:comp/env/jdbc/xxx");
@@ -36,7 +37,11 @@ while(rset.next()) {
 	String col1 = rset.getString(1);
 	String col2 = rset.getString(2);
 	out.println("<h1>"+col1+":"+col2+"</h1>");
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> branch 'master' of https://github.com/EEIT9703/RemoteRepository0922.git
 %>
 </body>
 </html>
