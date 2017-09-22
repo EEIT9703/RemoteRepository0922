@@ -27,9 +27,6 @@ CustomerBean bean = dao1.select("Alex");
 <%@ page import="javax.sql.*" %>
 <%@ page import="java.sql.*" %>
 
-
-
-<h2>非常難改喔</h2>
 <%
 Context ctx = new InitialContext();
 DataSource dataSource = (DataSource) ctx.lookup("java:comp/env/jdbc/xxx");
@@ -41,9 +38,6 @@ while(rset.next()) {
 	String col2 = rset.getString(2);
 	out.println("<h1>"+col1+":"+col2+"</h1>");
 }
-
-
-
 %>
 </body>
 </html>
