@@ -15,7 +15,7 @@
 <h3>Welcome ${user.custid}</h3>
 <h3>Welcome ${user.custid}</h3>
 
-<h1>ㄎㄎㄎㄎ</h1>
+<h1>check out</h1>
 
 
 
