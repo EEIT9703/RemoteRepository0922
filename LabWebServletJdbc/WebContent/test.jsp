@@ -40,5 +40,9 @@ while(rset.next()) {
 	out.println("<h1>"+col1+":"+col2+"</h1>");
 }
 %>
+
+
+
+
 </body>
 </html>
