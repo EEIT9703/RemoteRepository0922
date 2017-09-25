@@ -9,17 +9,7 @@
 </head>
 <body>
 
-
-<h3>Welcome ${user.custid}</h3>
-
-<h3>Welcome ${user.custid}</h3>
-<h3>Welcome ${user.custid}</h3>
-
-<h1>check out</h1>
-
-
-
-
+<h1>哈囉</h1>
 </body>
 
 
